@@ -27,9 +27,3 @@ Structure
 Notes
 - This scaffold is intentionally conservative and cost-aware (single NAT by default). Enable HA NAT and larger instance sizes for production.
 - The DR automation and Lambda templates are included as examples; for a live deployment you must provide AWS credentials and adjust IAM policies.
-
-Next steps
-- Review `modules/` and provide any preferences (RDS engine/instance sizes, primary/replica regions).
-- I can apply to a live AWS account if you supply credentials or run it locally and share the plan output.
-
-License: MIT
